@@ -1,0 +1,4 @@
+0 9 * * * bash $HOME/system_monitor.sh
+0 0 * * 2 /usr/local/bin/apache_backup.sh
+0 0 * * 2 /usr/local/bin/nginx_backup.sh
+
